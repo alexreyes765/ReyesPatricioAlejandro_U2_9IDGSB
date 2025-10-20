@@ -13,8 +13,8 @@ RUN npm install
 # Copia el resto del código
 COPY . .
 
-# Expone el puerto en el que corre tu app
+# Expone el puerto en el que corre la app
 EXPOSE 3000
 
-# Comando por defecto para ejecutar tu app
+# Comando por defecto para ejecutar la app
 CMD ["npm", "start"]
