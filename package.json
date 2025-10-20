@@ -1,0 +1,18 @@
+{
+  "name": "listatareas-api",
+  "version": "1.0.0",
+  "description": "Se desarrolla una api para una lista de tareas usando Docker,Express y mongo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alejandro Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}
